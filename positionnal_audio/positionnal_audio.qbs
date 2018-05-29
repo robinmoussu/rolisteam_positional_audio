@@ -27,7 +27,10 @@ Project {
 
         files: [
             "main.cpp",
+            "mumbleplugin.cpp",
+            "mumbleplugin.h",
             "qml.qrc",
+            "ressources.qrc",
         ]
 
         Group {     // Properties for the produced executable

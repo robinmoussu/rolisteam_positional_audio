@@ -3,10 +3,13 @@
 
 #include <QObject>
 
-class MumblePlugin
+class MumblePlugin: public QObject
 {
-public:
-    MumblePlugin();
+    Q_OBJECT
+
+public slots:
+    void setPositionalAudio(double x, double y);
 };
+
 
 #endif // MUMBLEPLUGIN_H
