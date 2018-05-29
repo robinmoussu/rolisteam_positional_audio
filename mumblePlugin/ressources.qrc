@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/">
-        <file>ressources/tavern.png</file>
         <file>ressources/adventurer.png</file>
+        <file>ressources/tavern.png</file>
     </qresource>
 </RCC>
